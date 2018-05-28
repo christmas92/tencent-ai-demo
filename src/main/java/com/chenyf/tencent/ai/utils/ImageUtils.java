@@ -18,7 +18,6 @@ public class ImageUtils {
 	public static String toBase64(File file) throws IOException {
 		byte[] bytes = Base64.encodeBase64(FileUtils.readFileToByteArray(file));
 		return new String(bytes);
-		
 	}
 
 }
